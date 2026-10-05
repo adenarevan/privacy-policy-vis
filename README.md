@@ -47,7 +47,7 @@ git push -u origin main
 ## Deploy ke Vercel
 
 1. Masuk ke Vercel, pilih **Add New → Project**, lalu import repository GitHub.
-2. Gunakan preset **Next.js**, root directory proyek, build command `npm run build`, dan output directory bawaan.
+2. Gunakan preset **Next.js**, root directory proyek, build command `npm run build`, dan nonaktifkan override **Output Directory** agar memakai bawaan `.next`. Build produksi menggunakan `.next`; server development lokal memakai `.next-dev` agar tidak berbenturan dengan build produksi.
 3. Pilih runtime Node.js 22.x di pengaturan proyek, lalu klik **Deploy**.
 4. Buka URL hasil deployment. Perubahan berikutnya yang di-push ke branch produksi akan dideploy oleh integrasi GitHub Vercel.
 
