@@ -1,5 +1,9 @@
 # Visual Inspection System Privacy Policy
 
+Website produksi: https://privacy-policy-vis-nu.vercel.app
+
+Download PDF: https://privacy-policy-vis-nu.vercel.app/vis-privacy-policy.pdf
+
 Halaman kebijakan privasi responsif dengan Next.js 15, React 19, TypeScript, dan CSS. Halaman tersedia di `/` dan `/privacy-policy`.
 
 Isi kebijakan disalin dari HTML Visual Inspection System yang diberikan pengguna, termasuk seluruh 12 bagian, subjudul, daftar, penekanan teks, tanggal **12 July 2023**, identitas **Japan International Cooperation Agency Team**, website, dan email kontak. Bahasa kebijakan dipertahankan dalam bahasa Inggris. Desain responsif Next.js tetap menggunakan tampilan yang telah dibuat.
